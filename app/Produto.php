@@ -8,5 +8,5 @@ class Produto extends Model
 {
     protected $fillable = ['id', 'nome', 'descricao'];
 
-    protected $dates = ['create_at'];
+    protected $dates = ['created_at', 'updated_at'];
 }
