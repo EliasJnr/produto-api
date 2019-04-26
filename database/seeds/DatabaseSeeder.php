@@ -11,8 +11,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Produto::class, 50)->create()->each(function ($produto) {
-            $produto->save(factory(App\Post::class)->make());
+        factory(App\Produto::class, 5)->create()->each(function ($produto) {
+            $produto->save(factory(App\Produto::class)->make());
         });
       
        
