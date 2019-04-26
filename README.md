@@ -1,6 +1,9 @@
 # Configuracao:
 - Composer
-- Banco de dados Mysql, dbname: laravel
+- Banco de dados Mysql:
+   * dbname: laravel
+   * user: root
+   * password: 
 
 # Instalação:
 - Executar o comandos:
